@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkerboardredo.css">
+    <title>Checkerboard</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <img src="logo.svg" class="logo">
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="index.html">CheckerBoard</a></li>
+                    <li><a href="Flag.html">Merica</a></li>
+                    <li><a href="Shop.html">Shopping</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1 class="checker-board">Checkerboard</h1>
+    <div class="buttons">
+        <button onclick="changeToChess()">Change to Chess</button>
+        <button onclick="resetToCheckerboard()">Reset to Checkerboard</button>
+    </div>
+    <div id="board"></div>
+    <script src="checkerboard.js"></script>
+</body>
+</html>

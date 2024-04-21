@@ -1,0 +1,94 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,79,253,1) 100%);
+}
+
+
+
+.stripes1, .stripes2{
+    height:75px;
+    width: 100rem;
+    
+}
+
+.flag-pic{
+ position:absolute;
+z-index: 6;
+top:70px;
+left:0px;
+height: 526px;
+}
+
+.stripes1{
+background-color: red;
+
+}
+
+.stripes2{
+    background-color: white;
+    
+    }
+
+
+
+
+
+
+    /* //NAVBAR CSS// */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-image: url(images/wood.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+    }
+    .nav-container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        margin-top: 0px;
+        background-color: rgba(214, 204, 187, 0.327);
+    }
+    .nav-links {
+        list-style-type: none;
+        display: flex;
+    }
+    .nav-links li {
+        padding: 10px;
+    }
+    .nav-links a {
+        color: #ffffff;
+        text-decoration: none;
+        position: relative;
+        transition: color 0.3s ease;
+    }
+    .nav-links a:hover, .nav-links a:focus {
+        color: #000000;
+    }
+    .nav-links a::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 2px;
+        background: white;
+        left: 50%;
+        bottom: -5px;
+        transition: width 0.3s ease, left 0.3s ease;
+    }
+    .nav-links a:hover::after, .nav-links a:focus::after {
+        width: 100%;
+        left: 0;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    

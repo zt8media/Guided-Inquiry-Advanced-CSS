@@ -1,0 +1,194 @@
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,79,253,1) 100%);
+}
+
+
+#row-1{
+display: flex;
+justify-content:center;}
+#row-2,#row-4,#row-6,#row-8{
+   
+    display: flex;
+    justify-content:center;
+    margin-top:-105px;
+    margin-left:200px;
+}
+
+#row-3,#row-5,#row-7{
+    display: flex;
+    justify-content:center;
+    margin-top: -105px;
+}
+
+/* white container */
+
+#row-2-2,#row-4-2,#row-6-2,#row-8-2{
+   
+    display: flex;
+    justify-content:center;
+    margin-top:-105px;
+    margin-left:200px;
+}
+
+#row-3-2,#row-5-2,#row-7-2{
+    display: flex;
+    justify-content:center;
+    margin-top: -105px;
+}
+
+
+.square-1, .square-2, .square-3, .square-4{
+height: 100px;
+width:100px;
+background-color:black;
+margin:50px;
+border:solid .5px black;
+
+}
+
+.square-1-2, .square-2-2, .square-3-2, .square-4-2{
+    height: 100px;
+    width:100px;
+    background-color:whitesmoke;
+    margin:50px;
+    border:solid .5px black;
+    }
+
+#container{
+    position: absolute;
+padding: 0;
+box-sizing: border-box;
+margin: 200px;
+margin-top:50px;
+
+}
+
+
+#container2{
+     position: absolute;
+     left:108px;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0; 
+    z-index:-1;
+    margin: 200px;
+    margin-top:50px;
+}
+    
+    .invis {
+        visibility: hidden;
+
+    }
+
+   
+.checker-board{
+     position: absolute;
+    font-size:100px;
+   display:flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left:480px;
+   
+}
+
+/*.pic{
+    height: 1950px;
+    width: 1950px;
+    margin-left:1250px;
+    margin-top:-930px;
+    z-index: 2;
+}*/
+ 
+/* FLAG CSS */
+
+.stripes1, .stripes2{
+    height:75px;
+    width: 100rem;
+    
+}
+
+.flag-pic{
+ position:absolute;
+z-index: 6;
+top:6.5px;
+left:8px;
+height: 526px;
+}
+
+.stripes1{
+background-color: red;
+
+}
+
+.stripes2{
+    background-color: white;
+    
+    }
+
+    /* Shop code*/
+
+    #shop-container {
+      position: relative;
+        margin-top: 10%;
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+        grid-auto-rows: minmax(200px, auto);
+    
+    }
+
+    #shop-container > div {
+      position: relative;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-between;
+        text-align: center;
+        border-radius: 5%;
+    background-color:rgba(139, 200, 238, 0.368);
+   
+    }
+
+
+
+    .paddington{
+        margin-top:50px;
+        margin-left:30px;
+        height: 300px;
+        width: 300px;
+        display: block;
+    }
+
+    .funko-pop{
+        margin-top:50px;
+        margin-left:30px;
+        height: 300px;
+        width: 300px;
+        display: block; 
+    
+    }
+
+    .price-words{
+    font-size: 35px;
+    }
+    
+    .description{
+        color:white;
+    }
+
+    .amazari{
+        font-family: cursive;
+        color:white;
+        font-size: 90px;
+        display:flex;
+        justify-content: center;
+margin-left:400px;
+border-radius: 7%;
+        height: auto;
+        width:50%;
+        background-color: rgba(245, 245, 245, 0.366);}
+
+    .top-description{
+        display: flex;
+        justify-content: center;
+    }
